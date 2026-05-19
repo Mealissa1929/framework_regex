@@ -27,12 +27,12 @@ foreach ($tabelas as $tabela) {
 $nomeClasse=ucfirst($tabela);
 $conteudo=<<<CLASS
 <?php
-class $nomeClasse {
+
+class $nomeClasse
+{
+    $attr
   
-$attr
-  
-$metodos
-  
+    $metodos
 }
 CLASS;
 
