@@ -1,3 +1,12 @@
+<?php
+if(isset($_GET["erro"])){
+  switch($_GET["erro"]){
+    case 0:
+    echo"Apenas arquivos SQL";
+  }
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
